@@ -1,0 +1,44 @@
+@font-face {
+    font-family:Nunito Sans 400;
+    src: url(../public/fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+
+    font-family: Nunito Sans 600;
+    src: url();
+}
+
+.header-bg {
+    background-color: #0d6efd;
+    color: white;
+}
+
+body {
+    margin: 0px;
+}
+
+
+p {
+    font-family: 'Nunito Sans';
+}
+
+
+a h1 h2  {
+    color: white;
+}
+
+.img {
+    background-image: url(../public/images/dark-blue-and-black-aesthetic-waves-44u0sm9mmequ39c9.jpg);
+    color: white;
+    height: 100%;
+   
+}
+
+
+
+.test {
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    text-align: center;
+    
+  
+}
