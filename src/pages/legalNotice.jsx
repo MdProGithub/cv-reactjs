@@ -1,6 +1,6 @@
 const MentionLegal = () => {
     return (
-        <div></div>
+        <div>Legale Notice</div>
     )
 }
 

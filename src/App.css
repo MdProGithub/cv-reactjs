@@ -1,44 +1,81 @@
-@font-face {
-    font-family:Nunito Sans 400;
-    src: url(../public/fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
 
-    font-family: Nunito Sans 600;
-    src: url();
-}
 
 .header-bg {
-    background-color: #0d6efd;
-    color: white;
+    background-color: #000000 ;
+    color: black;
+}
+
+.imgHeader {
+    height: 40px;
+    filter: drop-shadow(0 0 5px rgba(0, 150, 255, 0.2));
+    transition: ease-in 0.3s;
+    
+}
+
+.navbar-nav {
+    justify-content: flex-end;
+}
+
+.imgHeader:hover {
+    filter: drop-shadow(0 0 5px rgba(0, 150, 255, 0.6));
+    cursor: pointer;
 }
 
 body {
     margin: 0px;
-}
-
-
-p {
+    scroll-behavior: smooth;
     font-family: 'Nunito Sans';
+    font-weight: 400;
+    background-color:#EEE;
 }
 
-
-a h1 h2  {
-    color: white;
+h1, h2,h3 {
+    color: #1e1e1e ;
+    font-size: large;
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    text-shadow:1px 1px 2px rgba(255, 255, 255, 5);
+    font-size: 400px;
 }
+
 
 .img {
-    background-image: url(../public/images/dark-blue-and-black-aesthetic-waves-44u0sm9mmequ39c9.jpg);
-    color: white;
+    background-image: url(./images/dark-blue-and-black-aesthetic-waves-44u0sm9mmequ39c9.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+ }
+
+ .apropos {
+    height: 500px;
+    background-color: #EEE;
+ }
+
+.z-index{
+    position: relative;
+    z-index: 1;
+}
+
+.link a {
+    color: black;
+}
+
+.backcolor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
-   
+    background: rgba(0, 0, 0, 0.3)
 }
 
-
-
-.test {
-    display: flex;
-    flex-direction: column;
-    align-items:center ;
-    text-align: center;
-    
-  
+.bar-bg {
+    background-color: #0d6efd ;
 }
+
+.footer {
+    background-color: #0d6efd  ;
+}
+

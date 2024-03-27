@@ -8,12 +8,16 @@ import Contact from '../pages/contact';
 import LegalNotice from '../pages/legalNotice';
 import Service from '../pages/service';
 
+import logo from '../images/logo.png'
+import Footer from './footer';
+
+
 function Header() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark header-bg">
+      <nav className="navbar navbar-expand-lg navbar-dark header-bg container-fluid">
         <div className="container-fluid">
-          <img src="../../public/images/logo.png" alt="" />
+          <img className="imgHeader" src={logo} alt="logo d'entreprise" />
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -51,7 +55,13 @@ function Header() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/legalNotice" element={<LegalNotice />} />
       </Routes>
-    </div>
+
+      
+    <Footer/>
+
+  </div>
+
+    
   );
 }
 
