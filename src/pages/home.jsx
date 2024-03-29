@@ -22,7 +22,7 @@ const Home = () => {
 
         return (
             <div className="container-fluid">
-              <div className='d-flex row justify-content-center align-items-center m-5'>
+              <div className=' d-flex row justify-content-center align-items-center bg-EEE p-5 ' id='apropos'>
                 <div className='col-md-3 align-items-center justify-content-center'>
                  <img className='img-fluid rounded mx-auto d-block' src={userData.avatar_url} alt={userData.login} /> 
                 </div>
@@ -30,7 +30,7 @@ const Home = () => {
                 <div className='col-md-6 text-center'>
                     <h2>À propos</h2>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit harum aut ipsum, animi adipisci repudiandae nihil aliquid eos facilis. Illo laudantium et voluptatem nulla minus voluptas cupiditate nesciunt non nihil?
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit harum aut ipsum, animi adipisci repudiandae nihil aliquid eos facilis. Illo laudantium et voluptatem nulla minus voluptas cupiditate nesciunt non nihil?
                     </p>
                     <div className='container '>
                       <div className="progress mb-2 bar-bg" role="progressbar" aria-label="Example with label" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
@@ -44,6 +44,9 @@ const Home = () => {
                       </div>
                       <div className="progress mb-2" role="progressbar" aria-label="Example with label" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
                           <div className="progress-bar" style={{width: '95%'}}>Bootstrap</div>
+                      </div>
+                      <div className="progress mb-2" role="progressbar" aria-label="Example with label" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                          <div className="progress-bar" style={{width: '98%'}}>Figma</div>
                       </div>
                     </div>
                  </div>
@@ -61,7 +64,7 @@ const Home = () => {
                 <div>
                   <h1 className="z-index">Portfolio</h1>
                   <h2 className="z-index">Jhon Doe</h2>                 
-                  <button type="button" class="btn btn-outline-secondary z-index">En savoir plus</button> 
+                  <button type="button" class="btn btn-outline-primary z-index"><a href="#apropos" style={{textDecoration:'none'}} >En savoir plus</a></button> 
                   <div className="backcolor"></div>
                 </div>  
             </div>
