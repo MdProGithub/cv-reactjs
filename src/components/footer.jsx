@@ -13,9 +13,9 @@ const Footer = () => {
                         <p className='m-0'>
                             <a href="tel:+33607080910">06 07 08 09 10</a>
                             <div className='d-flex justify-content-center link'>
-                              <a href="https://github.com/github-john-doe" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
-                              <a href="https://twitter.com/twitter-john-doe" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
-                              <a href="https://www.linkedin.com/in/linkedin-john-doe/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>  
+                              <a className='m-2' href="https://github.com/github-john-doe" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
+                              <a className='m-2' href="https://twitter.com/twitter-john-doe" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
+                              <a className='m-2' href="https://www.linkedin.com/in/linkedin-john-doe/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>  
                             </div>
                         </p>
                     </div>
