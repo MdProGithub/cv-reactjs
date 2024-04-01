@@ -6,7 +6,7 @@ const Achievement = () => {
     return(
         <div>
             <div className='row  justify-content-center m-4'>
-              <div className="col-md-5 m-4 card justify-content-center">
+              <div className="col-md-5 m-4 card">
                 <img src={porfolioBootstrap} className="card-img-top" alt="site web portfolio conçu avec la librairie Bootstrap" />
                 <div className="card-body text-center">
                   <h5 className="card-title">Portfolio</h5>
@@ -15,7 +15,7 @@ const Achievement = () => {
                 </div>
               </div>
 
-              <div className="col-md-5 m-4 card justify-content-center">
+              <div className="col-md-5 m-4 card">
                 <img src={maquetteFigma} className="card-img-top" alt="Prototype d'un site e-commerce fait sur Figma" />
                 <div className="card-body text-center">
                   <h5 className="card-title">Maquettage</h5>
@@ -24,7 +24,7 @@ const Achievement = () => {
                 </div>
               </div>
 
-              <div className="col-md-5 m-4 card justify-content-center">
+              <div className="col-md-5 m-4 card">
                 <img src={espaceCom} className="card-img-top" alt="Prototype d'un site e-commerce fait sur Figma" />
                 <div className="card-body text-center">
                   <h5 className="card-title">Fonctionnalité JS</h5>
