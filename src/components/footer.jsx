@@ -23,9 +23,9 @@ const Footer = () => {
                         <h3>Pages</h3>
                         <ul className='list-unstyled'>
                             <li><a href="/">Accueil</a></li>
-                            <li><a href="/about">À propos</a></li>
                             <li><a href="/contact">Contact</a></li>
                             <li><a href="/service">Service</a></li>
+                            <li><a href="/legalNotice">Mentions légales</a></li>
                         </ul>
                     </div>
                     <div className="col-md-3 d-flex row text-center link pt-4">
