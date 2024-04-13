@@ -20,17 +20,21 @@
 body {
     margin: 0px;
     scroll-behavior: smooth;
-    background-color:#EEE;
-    background-color: inherit;
+    background-color:#EEE;;
 }
 
 h1,h2,h3 {
     color: #1e1e1e ;
     font-size: large;
-    font-family: 'Nunito Sans' inherit;
+    font-family: 'Nunito Sans';
     font-weight: 700;
     text-shadow:1px 1px 2px rgba(255, 255, 255, 5);
     font-size: 400px;
+}
+
+p {
+    font-family: 'Nunito Sans';
+    font-weight: 400;
 }
 
 a :hover {
@@ -58,16 +62,6 @@ a :hover {
 .footer {
     background-color: #393e46  ;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 .img {
