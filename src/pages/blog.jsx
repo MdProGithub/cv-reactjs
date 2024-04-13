@@ -8,7 +8,7 @@ import optimisationWeb from '../images/optimisationWeb.jpeg'
 const Achievement = () => {
     return(
         <div>
-         <div className="row justify-content-center m-4">
+         <div id="article-1" className="row justify-content-center m-4">
           <div class="col-md-3 col-sm-5 col-7 m-4 card">
             <img src={Decrypt} class="card-img-top" alt="..."/>
             <div class="card-body text-center">
@@ -20,7 +20,7 @@ const Achievement = () => {
             </div>
           </div>
 
-          <div class="col-md-3 col-sm-5 col-7 m-4 card">
+          <div id="article-2" class="col-md-3 col-sm-5 col-7 m-4 card">
             <img src={guideEcommerce} class="card-img-top" alt="..."/>
             <div class="card-body text-center">
               <h5 class="card-title">Le guide ultime du SEO pour le e-commerce</h5>
@@ -32,7 +32,7 @@ const Achievement = () => {
             </div>
           </div>
 
-          <div class="col-md-3 col-sm-5 col-7 m-4 card">
+          <div id="article-3" class="col-md-3 col-sm-5 col-7 m-4 card">
             <img src={uxcommerce} class="card-img-top" alt="..."/>
             <div class="card-body text-center">
               <h5 class="card-title">Sécurité web : Protéger votre e-commerce contre les cybermenaces</h5>
@@ -43,7 +43,7 @@ const Achievement = () => {
             </div>
           </div>
 
-          <div class="col-md-3 col-sm-5 col-7 m-4 card">
+          <div id="article-4" class="col-md-3 col-sm-5 col-7 m-4 card">
             <img src={iabigdata} class="card-img-top" alt="..."/>
             <div class="card-body text-center">
               <h5 class="card-title">L’avenir du business web : IA et Big Data</h5>
@@ -54,7 +54,7 @@ const Achievement = () => {
             </div>
           </div>
 
-          <div class="col-md-3 col-sm-5 col-7 m-4 card">
+          <div id="article-5" class="col-md-3 col-sm-5 col-7 m-4 card">
             <img src={cybersecurity} class="card-img-top" alt="..."/>
             <div class="card-body text-center">
               <h5 class="card-title">Sécurité web : Protéger votre e-commerce contre les cybermenaces</h5>
@@ -65,7 +65,7 @@ const Achievement = () => {
             </div>
           </div>
 
-          <div class="col-md-3 col-sm-5 col-7 m-4 card">
+          <div id="article-6" class="col-md-3 col-sm-5 col-7 m-4 card">
             <img src={optimisationWeb} class="card-img-top" alt="..."/>
             <div class="card-body text-center">
               <h5 class="card-title">Optimisation des performances web pour votre e-commerce</h5>

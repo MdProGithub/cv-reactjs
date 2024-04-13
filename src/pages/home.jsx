@@ -49,10 +49,7 @@ const Home = () => {
                           <div className="progress-bar" style={{width: '98%'}}>Figma</div>
                       </div>
                     </div>
-                 </div>
-                    
-                    
-                    
+                 </div>                   
                 </div>
             </div>
         );
@@ -68,7 +65,6 @@ const Home = () => {
                   <div className="backcolor"></div>
                 </div>  
             </div>
-
             <JhonDoe />  
         </div>
     )

@@ -2,9 +2,9 @@ const Contact = () => {
     return (
         <div>
             <div class="container">
-              <div class="row justify-content-center bg-contact rounded-4 m-5">
+              <div class="row justify-content-center bg-contact rounded-5 m-5">
                 <div class="col-md-6 m-4">
-                  <form className="">                 
+                  <form className="text-contact">                 
                     <div class="form-group d-flex flex-column z-index2">
                       <label for="nom">Nom</label>
                       <input type="text" class="form-control" id="nom" placeholder="Entrez votre nom" required/>
@@ -25,7 +25,9 @@ const Contact = () => {
                       <label for="message">Message</label>
                       <textarea class="form-control" id="message" rows="4" placeholder="Entrez votre message" required></textarea>
                     </div>
+                    <div className="d-flex justify-content-center">
                     <button type="submit" class="btn btn-primary mt-3">Envoyer</button>
+                    </div>  
                   </form>
                 </div>
               </div>

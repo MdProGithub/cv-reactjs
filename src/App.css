@@ -1,20 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
 
 
-.header-bg {
-    background-color: #000000 ;
-    color: black;
+@media screen and (min-width: 320px) {
+    .header-bg {
+        background-image: url(./images/banner-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+    }
 }
 
-.imgHeader {
-    height: 40px;
-    filter: drop-shadow(0 0 5px rgba(0, 150, 255, 0.2));
-    transition: ease-in 0.3s;
-    
+@media screen and (min-width: 768px) {
+    .header-bg {
+        background-image: url(./images//banner-tablette.jpg);
+    }
 }
+
+
+body {
+    margin: 0px;
+    scroll-behavior: smooth;
+    background-color:#EEE;
+    background-color: inherit;
+}
+
+h1,h2,h3 {
+    color: #1e1e1e ;
+    font-size: large;
+    font-family: 'Nunito Sans' inherit;
+    font-weight: 700;
+    text-shadow:1px 1px 2px rgba(255, 255, 255, 5);
+    font-size: 400px;
+}
+
+a :hover {
+    opacity: 0.8;
+    filter: drop-shadow(0 0 2px white);
+}
+
 
 .navbar-nav {
     justify-content: flex-end;
+}
+
+.imgHeader {
+    height: 20px;
+    transition: ease-in 0.3s;
+    
 }
 
 .imgHeader:hover {
@@ -22,24 +54,20 @@
     cursor: pointer;
 }
 
-body {
-    margin: 0px;
-    scroll-behavior: smooth;
-    font-family: 'Nunito Sans';
-    font-weight: 400;
-    background-color:#EEE;
+
+.footer {
+    background-color: #393e46  ;
 }
 
 
 
-h1,h2,h3 {
-    color: #1e1e1e ;
-    font-size: large;
-    font-family: 'Nunito Sans';
-    font-weight: 700;
-    text-shadow:1px 1px 2px rgba(255, 255, 255, 5);
-    font-size: 400px;
-}
+
+
+
+
+
+
+
 
 
 .img {
@@ -51,7 +79,7 @@ h1,h2,h3 {
  }
 
  .bg-EEE {
-    background-color: #EEE;
+    background-color: #EEE ;
  }
 
 .z-index{
@@ -62,7 +90,11 @@ h1,h2,h3 {
 .link a {
     color: black;
     text-decoration: none;
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans' inherit;
+}
+
+.link a:hover {
+    text-decoration: underline;
 }
 
 .backcolor {
@@ -74,13 +106,8 @@ h1,h2,h3 {
     background: rgba(0, 0, 0, 0.3)
 }
 
-.bar-bg {
-    background-color: #0d6efd ;
-}
 
-.footer {
-    background-color: #0d6efd  ;
-}
+
 
 .bg-service {
     background-color: #EEE ;
