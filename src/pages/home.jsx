@@ -28,26 +28,36 @@ const Home = () => {
                 </div>
                 
                 <div className='col-md-6 text-center'>
-                    <h2>À propos</h2>
+                    <h2 className='my-4'>À propos</h2>
+                    <hr />
                     <p>
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit harum aut ipsum, animi adipisci repudiandae nihil aliquid eos facilis. Illo laudantium et voluptatem nulla minus voluptas cupiditate nesciunt non nihil?
+                      Passioné par l'informatique et les nouvelles technologies,
+                      j'ai suivie une formation d'<strong>intégrateur-dévéloppeur web</strong> au CEF.
+                       Au cours de cette formation, j'ai pu acquérir des bases solides
+                      pour travailler dans le domaine du <strong>développement web</strong>
+                      <br /> <br />
+                      Basé à Lyon, je suis en recherche d'une alternance au sein d'une agence digitale pour
+                      consolider ma formation de <strong>developpeur web full stack</strong>.
+                      <br /> <br />
+                      J'accorde une attention particulière à la qualité du code que j'écris et je respecte
+                      les bonnes pratiques du web.
                     </p>
                     <div className='container '>
-                      <div className="progress mb-2 bar-bg" role="progressbar" aria-label="Example with label" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                          <div className="progress-bar " style={{width: '85%'}}>Javascript</div>
-                      </div>
-                      <div className="progress mb-2" role="progressbar" aria-label="Example with label" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                          <div className="progress-bar" style={{width: '100%'}}>HTML</div>
-                      </div>
-                      <div className="progress mb-2" role="progressbar" aria-label="Example with label" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                          <div className="progress-bar" style={{width: '100%'}}>CSS</div>
-                      </div>
-                      <div className="progress mb-2" role="progressbar" aria-label="Example with label" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                          <div className="progress-bar" style={{width: '95%'}}>Bootstrap</div>
-                      </div>
-                      <div className="progress mb-2" role="progressbar" aria-label="Example with label" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                          <div className="progress-bar" style={{width: '98%'}}>Figma</div>
-                      </div>
+                    <div class="progress my-4 bg-secondary" role="progressbar" aria-label="Danger example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar bg-danger" style={{width: '90%'}}>HTML 90%</div>
+                    </div>
+                    <div class="progress my-4 bg-secondary" role="progressbar" aria-label="Info example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar bg-info text-dark" style={{width: '80%'}}>CSS 80%</div>
+                    </div>
+<                    div class="progress my-4 bg-secondary" role="progressbar" aria-label="Warning example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar bg-warning text-dark" style={{width: '70%'}}>Javascript 70%</div>
+                    </div>
+                    <div class="progress my-4 bg-secondary" role="progressbar" aria-label="Success example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar bg-success" style={{width: '60%'}}>PHP 60%</div>
+                    </div>
+                    <div class="progress bg-secondary" role="progressbar" aria-label="Primery example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar" style={{width: '50%'}}>React 50%</div>
+                    </div>
                     </div>
                  </div>                   
                 </div>
@@ -59,9 +69,9 @@ const Home = () => {
         <div className="container-fluid" style={{padding:'0'}} >
             <div className="container-fluid d-flex justify-content-center align-items-center text-center p-4 img">
                 <div>
-                  <h1 className="z-index">Portfolio</h1>
-                  <h2 className="z-index">Jhon Doe</h2>                 
-                  <button type="button" class="btn btn-outline-primary z-index"><a href="#apropos" style={{textDecoration:'none'}} >En savoir plus</a></button> 
+                  <h1 className="z-index">Bonjour, je suis Jhon Doe</h1>
+                  <h2 className="z-index">Développer web full stack</h2>                 
+                  <button type="button" class="btn btn-outline-secondary z-index"><a href="#apropos" style={{textDecoration:'none'}} >En savoir plus</a></button> 
                   <div className="backcolor"></div>
                 </div>  
             </div>

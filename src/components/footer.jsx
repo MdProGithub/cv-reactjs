@@ -12,8 +12,8 @@ const Footer = () => {
                     <div className="col-md-3 d-flex row link pt-4">
                         <h3>John Doe</h3>
                         <ul className='list-unstyled'>
-                          <li className='my-2'><i class="fa-solid fa-location-dot fa-2xs mx-2"></i><a href="https://maps.app.goo.gl/dz17qAS3pxiKengK6" target="_blank" rel="noopener noreferrer">40 Rue Laure Diebold 69009 Lyon, France</a></li>
-                          <li className='my-2'><i class="fa-solid fa-phone fa-2xs mx-2"></i><a href="tel:+33607080910">06 20 30 40 50</a></li>
+                          <li className='my-2'><i class="fa-solid fa-location-dot fa-2xs mx-2"></i><a href="https://maps.app.goo.gl/jkE7ZycqdDXPw8c8A" target="_blank" rel="noopener noreferrer">40 Rue Laure Diebold 69009 Lyon, France</a></li>
+                          <li className='my-2'><i class="fa-solid fa-phone fa-2xs mx-2"></i><a href="tel:+33620304050">06 20 30 40 50</a></li>
                           <p className='m-0'>
                               
                               <div className='my-2 justify-content-center link'>
